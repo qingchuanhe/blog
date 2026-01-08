@@ -1,39 +1,36 @@
 menu:
-    文章:
-      归档: /archives/ || anzhiyu-icon-box-archive
-      分类: /categories/ || anzhiyu-icon-shapes
-      标签: /tags/ || anzhiyu-icon-tags
+  # 文章:
+  #   隧道: /archives/ || anzhiyu-icon-box-archive
+  #   分类: /categories/ || anzhiyu-icon-shapes
+  #   标签: /tags/ || anzhiyu-icon-tags
 
-    友链:
-      友人帐: /link/ || anzhiyu-icon-link
-      朋友圈: /fcircle/ || anzhiyu-icon-artstation
-      留言板: /comments/ || anzhiyu-icon-envelope
+  # 友链:
+  #   友人帐: /link/ || anzhiyu-icon-link
+  #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
+  #   留言板: /comments/ || anzhiyu-icon-envelope
 
-    我的:
-      音乐馆: /music/ || anzhiyu-icon-music
-      追番页: /bangumis/ || anzhiyu-icon-bilibili
-      相册集: /album/ || anzhiyu-icon-images
-      小空调: /air-conditioner/ || anzhiyu-icon-fan
+  # 我的:
+  #   音乐馆: /music/ || anzhiyu-icon-music
+  #   追番页: /bangumis/ || anzhiyu-icon-bilibili
+  #   相册集: /album/ || anzhiyu-icon-images
+  #   小空调: /air-conditioner/ || anzhiyu-icon-fan
 
-    关于:
-      关于本人: /about/ || anzhiyu-icon-paper-plane
-      闲言碎语: /essay/ || anzhiyu-icon-lightbulb
-      随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+  # 关于:
+  #   关于本人: /about/ || anzhiyu-icon-paper-plane
+  #   闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+  #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
 nav:
-  enable: true
-  travelling: true
-  clock: true
+  enable: false
+  travelling: false
+  clock: false
   menu:
     - title: 网页
       item:
-        - name: 川川笔记
-          link: https://www.567921.xyz/
-          icon: /img/01-base/favicon.ico
-        - name: OpenList云盘
-          link: https://list.567921.xyz/
-          icon: /img/01-base/openlistlogo.svg
+        - name: 博客
+          link: https://hexo.anheyu.com/
+          icon: /img/favicon.ico
     - title: 项目
       item:
         - name: 安知鱼图床
@@ -57,12 +54,12 @@ highlight_height_limit: 330 # unit: px
 code_word_wrap: false
 
 # copy settings
-# copyright: 复制成功，复制和转载请标注本文地址
+# copyright: Add the copyright information after copied content (複制的内容后面加上版权信息)
 # copy: enable 复制后弹窗提示版权信息
 copy:
   enable: true
   copyright:
-    enable: true
+    enable: false
     limit_count: 50
 
 # social settings (社交图标设置)
@@ -88,7 +85,6 @@ author_status:
     # - 💢 壮汉人狠话不多
 
 # search (搜索)
-# see https://blog.anheyu.com/posts/c27d.html#搜索系统
 # --------------------------------------
 
 # Algolia search
@@ -143,7 +139,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: /img/01-base/icon.jpg
+  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
   effect: false
 
 # Disable all banner image
@@ -196,15 +192,14 @@ post_meta:
 # 主色调相关配置
 mainTone:
   enable: false # true or false 文章是否启用获取图片主色调
-  mode: api # cdn/api/both cdn模式为图片url+imageAve参数获取主色调，api模式为请求API获取主色调，both模式会先请求cdn参数，无法获取的情况下将请求API获取，可以在文章内配置main_color: '#3e5658'，使用十六进制颜色，则不会请求both/cdn/api获取主色调，而是直接使用配置的颜色
+  mode: api # colorthief/cdn/api/both colorthief模式为前端获取图片主色调，cdn模式为图片url+imageAve参数获取主色调，api模式为请求API获取主色调，both模式会先请求cdn参数，无法获取的情况下将请求API获取，可以在文章内配置main_color: '#3e5658'，使用十六进制颜色，则不会请求colorthief/cdn/api/both获取主色调，而是直接使用配置的颜色
   # 项目地址：https://github.com/anzhiyu-c/img2color-go
   api: https://img2color-go.vercel.app/api?img= # mode为api时可填写
   cover_change: true # 整篇文章跟随cover修改主色调
 
 # wordcount (字数统计)
-# see https://blog.anheyu.com/posts/c27d.html#字数统计
 wordcount:
-  enable: true
+  enable: false
   post_wordcount: true
   min2read: true
   total_wordcount: true
@@ -236,23 +231,23 @@ toc:
 post_copyright:
   enable: true
   decode: false
-  author_href: https://www.567921.xyz
-  location: 杭州
+  author_href:
+  location: 长沙
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
-  avatarSinks: true # hover时头像下沉
+  avatarSinks: false # hover时头像下沉
   copyright_author_img_back:
   copyright_author_img_front:
-  copyright_author_link: https://www.567921.xyz
+  copyright_author_link: /
 
 # Sponsor/reward
 reward:
   enable: true
   QR_code:
-    - img: /img/01-base/weixin.png
+    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
       link:
       text: 微信
-    - img: /img/01-base/zhifubao.jpg
+    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png
       link:
       text: 支付宝
 
@@ -433,8 +428,8 @@ footer:
     since: 2020
   custom_text:
   runtime:
-    enable: true
-    launch_time: 08/01/2025 00:00:00 # 网站上线时间
+    enable: false
+    launch_time: 04/01/2021 00:00:00 # 网站上线时间
     work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
     work_description: 距离月入25k也就还差一个大佬带我~
     offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
@@ -442,26 +437,23 @@ footer:
   # 徽标部分配置项 https://shields.io/
   # https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
   bdageitem:
-    enable: true
+    enable: false
     list:
       - link: https://hexo.io/ #徽标指向网站链接
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
         message: 博客框架为Hexo_v5.4.0 #徽标提示语
-      - link: https://edgeone.ai/zh
-        shields: /img/01-base/CDN-EdgeOne-3693F3.svg
-        message: 本站使用EdgeOne为静态资源提供CDN加速
-      - link: https://blog.anheyu.com/
+      - link: https://hexo.anheyu.com/
         shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
         message: 本站使用AnZhiYu主题
-      - link: https://beian.miit.gov.cn/#/Integrated/index
-        shields: /img/01-base/beian.svg
-        message: 本站已在浙进行备案
+      # - link: https://www.dogecloud.com/
+      #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-多吉云-3693F3.svg
+      #   message: 本站使用多吉云为静态资源提供CDN加速
       # - link: https://github.com/
       #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
       #   message: 本站项目由Github托管
-      - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
-        shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
-        message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
+      # - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
+      #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
+      #   message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
   socialBar:
     enable: false
     centerImg:
@@ -538,8 +530,8 @@ footer:
         text: 主题
       # - link: https://image.anheyu.com
       #   text: 图床
-      - link: https://beian.miit.gov.cn/
-        text: 浙ICP备2025188467号
+      # - link: https://beian.miit.gov.cn/
+      #   text: 湘ICP备-xxxxxxx号
     subTitle:
       enable: false
       # Typewriter Effect (打字效果)
@@ -797,7 +789,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: /img/01-base/icon.jpg # 自定加载动画义头像
+  avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
@@ -866,7 +858,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 8/1/2025 00:00:00
+  publish_date: 4/1/2021 00:00:00
 
 # Console - Newest Comments
 newest_comments:
@@ -1058,20 +1050,20 @@ home_top:
   timemode: date #date/updated
   title: 生活明朗
   subTitle: 万物可爱。
-  siteText: www.567921.xyz
+  siteText: anheyu.com
   category:
-    - name: 工作
-      path: /categories/工作/
+    - name: 前端
+      path: /categories/前端开发/
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
-    - name: 学习
-      path: /categories/学习/
+    - name: 大学
+      path: /categories/大学生涯/
       shadow: var(--anzhiyu-shadow-red)
       class: red
       icon: anzhiyu-icon-fire
     - name: 生活
-      path: /categories/生活/
+      path: /categories/生活日常/
       shadow: var(--anzhiyu-shadow-green)
       class: green
       icon: anzhiyu-icon-book
@@ -1082,9 +1074,9 @@ home_top:
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
     tips: 新品主题
-    title: 川川笔记
+    title: Theme-AnZhiYu
     image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
-    link: https://www.567921.xyz
+    link: https://docs.anheyu.com/
 
 # 朋友圈配置
 friends_vue:
@@ -1112,6 +1104,17 @@ LA:
   ck:
   LingQueMonitorID:
 
+# Umami 统计配置（关于页面访问统计卡片）
+# 文档: https://umami.is/docs/api
+umami:
+  enable: false
+  # Umami API 地址，如 https://analytics.example.com
+  apiHost:
+  # 网站 ID
+  websiteId:
+  # API Token（在 Umami 后台 Settings -> API Keys 中生成）
+  token:
+
 # 标签卖萌
 diytitle:
   enable: true
@@ -1134,11 +1137,11 @@ comment_barrage_config:
 # https://github.com/metowolf/MetingJS
 nav_music:
   enable: true
-  console_widescreen_music: true # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
-  id: 7285828252
-  server: tencent
+  console_widescreen_music: false # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
+  id: 8152976493
+  server: netease
   volume: 0.7 # 默认音量
-  all_playlist: https://y.qq.com/n/ryqq/playlist/7285828252
+  all_playlist: https://y.qq.com/n/ryqq/playlist/8802438608
 
 # 路径为 /music 的音乐页面默认加载的歌单 1. nav_music 2. custom
 music_page_default: nav_music
@@ -1154,38 +1157,38 @@ ptool:
   share_mobile: true
   share_weibo: true
   share_copyurl: true
-  categories: true # 是否显示分类
+  categories: false # 是否显示分类
   mode: # 运营模式与责任，不配置不显示
 
 # 欢迎语配置
 greetingBox:
-  enable: true #开启后必须配置下面的list对应的时间段，不然会出现小白条
+  enable: false #开启后必须配置下面的list对应的时间段，不然会出现小白条
   default: 晚上好👋
   list:
-    - greeting: 晚安😴
-      startTime: 0
-      endTime: 5
-    - greeting: 早上好鸭👋, 祝你一天好心情！
-      startTime: 6
-      endTime: 9
-    - greeting: 上午好👋, 状态很好，鼓励一下～
-      startTime: 10
-      endTime: 10
-    - greeting: 11点多啦, 在坚持一下就吃饭啦～
-      startTime: 11
-      endTime: 11
-    - greeting: 午安👋, 宝贝
-      startTime: 12
-      endTime: 14
-    - greeting: 🌈充实的一天辛苦啦！
-      startTime: 14
-      endTime: 18
-    - greeting: 19点喽, 奖励一顿丰盛的大餐吧🍔。
-      startTime: 19
-      endTime: 19
-    - greeting: 晚上好👋, 在属于自己的时间好好放松😌~
-      startTime: 20
-      endTime: 24
+    # - greeting: 晚安😴
+    #   startTime: 0
+    #   endTime: 5
+    # - greeting: 早上好鸭👋, 祝你一天好心情！
+    #   startTime: 6
+    #   endTime: 9
+    # - greeting: 上午好👋, 状态很好，鼓励一下～
+    #   startTime: 10
+    #   endTime: 10
+    # - greeting: 11点多啦, 在坚持一下就吃饭啦～
+    #   startTime: 11
+    #   endTime: 11
+    # - greeting: 午安👋, 宝贝
+    #   startTime: 12
+    #   endTime: 14
+    # - greeting: 🌈充实的一天辛苦啦！
+    #   startTime: 14
+    #   endTime: 18
+    # - greeting: 19点喽, 奖励一顿丰盛的大餐吧🍔。
+    #   startTime: 19
+    #   endTime: 19
+    # - greeting: 晚上好👋, 在属于自己的时间好好放松😌~
+    #   startTime: 20
+    #   endTime: 24
 
 # 文章顶部ai摘要
 post_head_ai_description:
@@ -1226,11 +1229,11 @@ agreementPopup:
 
 # 右键菜单
 rightClickMenu:
-  enable: true
+  enable: false
 
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
-  enable: false
+  enable: true
   img: https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ba62475f396df9de3316a08ed9e65d86_5680958632268053399..png
 
 # 动效
@@ -1336,3 +1339,4 @@ CDN:
     # waterfall:
     # ali_iconfont_css:
     # accesskey_js:
+    # colorthief:
