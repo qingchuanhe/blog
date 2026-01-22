@@ -30,10 +30,10 @@ nav:
       item:
         - name: 川川笔记
           link: https://www.567921.xyz/
-          icon: /img/01-base/favicon.ico
+          icon: https://img.567921.xyz/file/web/base/1769060828336_favicon.ico
         - name: OpenList云盘
           link: https://list.567921.xyz/
-          icon: /img/01-base/openlistlogo.svg
+          icon: https://img.567921.xyz/file/logo/1769060678524_opnelist-logo.svg
     - title: 项目
       item:
         - name: 安知鱼图床
@@ -143,7 +143,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: /img/01-base/icon.jpg
+  img: https://img.567921.xyz/file/web/base/1769060817841_icon.jpg
   effect: false
 
 # Disable all banner image
@@ -249,10 +249,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: /img/01-base/weixin.png
+    - img: https://img.567921.xyz/file/web/base/1769060819614_weixin.png
       link:
       text: 微信
-    - img: /img/01-base/zhifubao.jpg
+    - img: https://img.567921.xyz/file/web/base/1769060824141_zhifubao.jpg
       link:
       text: 支付宝
 
@@ -448,13 +448,13 @@ footer:
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
         message: 博客框架为Hexo_v5.4.0 #徽标提示语
       - link: https://www.aliyun.com/product/esa
-        shields: /img/01-base/CDN-Alibaba-ESA-orange.svg
+        shields: https://img.567921.xyz/file/web/base/1769060798398_CDN-Alibaba-ESA-orange.svg
         message: 本站使用阿里云ESA为静态资源提供CDN加速
       - link: https://blog.anheyu.com/
         shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
         message: 本站使用AnZhiYu主题
       - link: https://beian.miit.gov.cn/#/Integrated/index
-        shields: /img/01-base/beian.svg
+        shields: https://img.567921.xyz/file/web/base/1769060771451_beian.svg
         message: 本站已在浙进行备案
       # - link: https://github.com/
       #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
@@ -797,7 +797,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: /img/01-base/icon.jpg # 自定加载动画义头像
+  avatar: https://img.567921.xyz/file/web/base/1769060817841_icon.jpg # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
