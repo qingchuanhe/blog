@@ -456,6 +456,9 @@ footer:
       - link: https://beian.miit.gov.cn/#/Integrated/index
         shields: https://img.567921.xyz/file/web/base/1769060771451_beian.svg
         message: 本站已在浙进行备案
+      - link: https://beian.mps.gov.cn/#/query/webSearch?code=33010502012711
+        shields: https://img.567921.xyz/file/logo/1770181791458_gongan_beian.svg
+        message: 本站已在浙进行公安备案
       # - link: https://github.com/
       #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
       #   message: 本站项目由Github托管
@@ -540,6 +543,9 @@ footer:
       #   text: 图床
       - link: https://beian.miit.gov.cn/
         text: 浙ICP备2025188467号
+      # 新增公安备案项
+      - link: https://beian.mps.gov.cn/#/query/webSearch?code=33010502012711
+        text: 浙公网安备33010502012711号
     subTitle:
       enable: false
       # Typewriter Effect (打字效果)
