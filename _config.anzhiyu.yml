@@ -1250,8 +1250,7 @@ dynamicEffect:
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # 自定义css
-    # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
+    - <style>.hello-about .content{pointer-events:none}.hello-about h1{font-size:clamp(24px,3vw,42px) !important}</style>
 
   bottom:
     # 自定义js

@@ -1,0 +1,100 @@
+- subtitle: 一个热爱技术与生活的后端开发者
+  avatarImg: https://img.567921.xyz/file/web/base/1769060817841_icon.jpg
+  name: 清川
+  description: 记录技术、生活与思考的点滴，用代码构建世界。
+  helloAbout: 保持热爱，奔赴山海
+
+  aboutsiteTips:
+    tips: 关于本站
+    title1: 一个后端开发者的
+    title2: 技术成长之路
+    word:
+      - Java
+      - Docker
+      - Node.js
+      - Python
+      - 微服务
+      - 云原生
+
+  avatarSkills:
+    left:
+      - 后端开发
+      - 微服务架构
+    right:
+      - 容器化部署
+      - DevOps
+
+  skillsTips:
+    tips: 技能树
+    title: 开启创造力
+
+  careers:
+    tips: 职业生涯
+    title: 无限进步
+    list:
+      - desc: 后端开发学习中
+        color: "#357ef5"
+      - desc: 微服务架构探索
+        color: "#42d392"
+      - desc: 容器化与云原生
+        color: "#f2b94b"
+    item: 持续成长
+    # img: /img/careers.png  # 可上传职业相关配图
+
+  selfInfo:
+    selfInfoTips1: 年龄
+    selfInfoContentYear: 2002
+    selfInfoTips2: 职业
+    selfInfoContent2: 后端开发
+    selfInfoTips3: 所在城市
+    selfInfoContent3: 杭州
+
+  map:
+    background: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/img/map-bg-light.png
+    backgroundDark: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/img/map-bg-dark.png
+    title: 我现在住在
+    StrengthenTitle: 杭州
+
+  personalities:
+    author_name: 清川
+    personality_type: INTJ-A / 建筑师
+    personality_type_color: "#88619a"
+    photo_url: https://img.567921.xyz/file/web/base/1769060817841_icon.jpg
+    personality_img: https://www.16personalities.com/ch/images/types/intj.png
+    name_url: https://www.16personalities.com/ch/intj-%E4%BA%BA%E6%A0%BC
+
+  maxim:
+    maxim_tips: 座右铭
+    maxim_top: 保持热爱，
+    maxim_bottom: 奔赴山海。
+
+  buff:
+    buff_tips: 能力加成
+    buff_top: 全栈技能修炼中
+    buff_bottom: 工具控 / 效率党
+
+  game:
+    game_tips: 游戏
+    game_title: 偶尔放松一下
+    game_uid: ""
+    game_bg: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/img/game-bg.png
+
+  comic:
+    comic_tips: 追番
+    comic_title: 在追的番剧
+    # comic_list:
+    #   - name: 番剧名称
+    #     href: https://example.com
+    #     cover: https://example.com/cover.jpg
+
+  music:
+    music_tips: 音乐品味
+    music_title: 最近在听的歌
+    music_link: /music
+    music_bg: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/img/music-bg.png
+
+  like:
+    like_tips: 科技爱好
+    like_title: 关注的科技产品
+    like_bottom: 数码产品 / 开源工具 / 效率软件
+    like_bg: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/img/like-bg.png
