@@ -104,3 +104,7 @@ deploy:
   type: 
   repository: 
   branch: 
+
+permalink_pinyin:
+  enable: true
+  separator: '-'
