@@ -30,10 +30,10 @@ nav:
       item:
         - name: 川川笔记
           link: https://www.567921.xyz/
-          icon: https://img.567921.xyz/file/web/base/1769060828336_favicon.ico
+          icon: /images/favicon.ico
         - name: OpenList云盘
           link: https://list.567921.xyz/
-          icon: https://img.567921.xyz/file/logo/1769060678524_opnelist-logo.svg
+          icon: /images/opnelist-logo.svg
     - title: 项目
       item:
         - name: 安知鱼图床
@@ -143,7 +143,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://img.567921.xyz/file/web/base/1769060817841_icon.jpg
+  img: /images/avatar.jpg
   effect: false
 
 # Disable all banner image
@@ -249,10 +249,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://img.567921.xyz/file/web/base/1769060819614_weixin.png
+    - img: /images/weixin.png
       link:
       text: 微信
-    - img: https://img.567921.xyz/file/web/base/1769060824141_zhifubao.jpg
+    - img: /images/zhifubao.jpg
       link:
       text: 支付宝
 
@@ -448,16 +448,16 @@ footer:
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
         message: 博客框架为Hexo_v5.4.0 #徽标提示语
       - link: https://www.aliyun.com/product/esa
-        shields: https://img.567921.xyz/file/web/base/1769060798398_CDN-Alibaba-ESA-orange.svg
+        shields: /images/cdn-alibaba.svg
         message: 本站使用阿里云ESA为静态资源提供CDN加速
       - link: https://blog.anheyu.com/
         shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
         message: 本站使用AnZhiYu主题
       - link: https://beian.miit.gov.cn/#/Integrated/index
-        shields: https://img.567921.xyz/file/web/base/1769060771451_beian.svg
+        shields: /images/beian.svg
         message: 本站已在浙进行备案
       - link: https://beian.mps.gov.cn/#/query/webSearch?code=33010502012711
-        shields: https://img.567921.xyz/file/web/base/1770182775396_gongan_beian.svg
+        shields: /images/gongan-beian.svg
         message: 本站已在浙进行公安备案
       # - link: https://github.com/
       #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
@@ -803,7 +803,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://img.567921.xyz/file/web/base/1769060817841_icon.jpg # 自定加载动画义头像
+  avatar: /images/avatar.jpg # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
