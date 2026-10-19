@@ -1,5 +1,5 @@
 - subtitle: 一个热爱技术与生活的后端开发者
-  avatarImg: https://img.567921.xyz/file/web/base/1769060817841_icon.jpg
+  avatarImg: https://oss.567921.xyz/web/base/icon.jpg
   name: 清川
   description: 记录技术、生活与思考的点滴，用代码构建世界。
   helloAbout: 保持热爱，奔赴山海
@@ -59,7 +59,7 @@
     author_name: 清川
     personality_type: INTJ-A / 建筑师
     personality_type_color: "#88619a"
-    photo_url: https://img.567921.xyz/file/web/base/1769060817841_icon.jpg
+    photo_url: https://oss.567921.xyz/web/base/icon.jpg
     personality_img: /images/intj-architect.svg
     name_url: https://www.16personalities.com/ch/intj-%E4%BA%BA%E6%A0%BC
 
