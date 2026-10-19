@@ -1,0 +1,51 @@
+/* =========================================================
+   友链卡片 —— 宽屏自适应优化
+   ---------------------------------------------------------
+   问题：主题默认 .flink-list-item { width: calc(20% - 12px) }
+         无论屏幕多宽都固定 5 列。宽屏下内容区约 1400px，
+         单卡仅约 268px，扣掉 60px 头像与左右外边距后，
+         文字区只剩不到 170px，站名与简介被截断；
+         且简介 height:40px 减去 padding 后实际只能显示 1 行。
+
+   方案：改为 auto-fill 网格，每卡最小 320px，按容器宽度自动
+         决定列数（宽屏约 3~4 列，单卡约 340px+）；
+         同时放开简介高度到 2 行。
+   ========================================================= */
+
+/* 容器：浮动布局改为网格布局 */
+#article-container .anzhiyu-flink-list {
+  overflow: visible !important;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)) !important;
+  gap: 12px;
+  margin: 0 !important;
+}
+
+/* 卡片：去掉浮动与固定百分比宽度，改由网格控制 */
+#article-container .anzhiyu-flink-list .flink-list-item {
+  float: none !important;
+  width: auto !important;
+  margin: 0 !important;
+}
+
+/* 头像右侧留白由 20px 收到 14px，给文字区多让出空间 */
+#article-container .anzhiyu-flink-list .flink-list-item .cf-friends-link img {
+  margin: 15px 14px 15px 15px;
+}
+
+#article-container .anzhiyu-flink-list .flink-list-item .flink-item-info {
+  width: calc(100% - 89px);
+}
+
+/* 简介：原 40px 扣掉 padding 后仅剩 1 行，放开到 2 行 */
+#article-container .anzhiyu-flink-list .flink-list-item .flink-item-desc {
+  height: 56px;
+  padding: 5px 10px 10px 0;
+}
+
+/* 窄屏回到单列 */
+@media screen and (max-width: 768px) {
+  #article-container .anzhiyu-flink-list {
+    grid-template-columns: 1fr !important;
+  }
+}

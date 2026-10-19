@@ -1,0 +1,8 @@
+- class_name: 友情链接
+  class_desc: 值得一逛的博客
+  flink_style: anzhiyu
+  link_list:
+    - name: 慕托小记
+      link: https://tor.hk/
+      avatar: https://tor.hk/logo.png
+      descr: 蜀枕清何的技术小站，分享前端开发、学习笔记与日常碎念。
